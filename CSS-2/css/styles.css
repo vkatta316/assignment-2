@@ -1,26 +1,21 @@
-.album {
-  display: grid;
-  grid-gap: 10px;
+body {
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
-.album img {
-  object-fit: cover;
-  width: 100%;
-  border-radius: 10px;
+.box-circle {
+  background: grey;
+  width: 10rem;
+  height: 10rem;
+  transition: all 1s ease-in-out;
 }
 
-@media screen and (min-width: 768px) {
-  .album {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .album {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .album img:nth-of-type(3) {
-    grid-column: 2 / 4;
-    grid-row: 1 / 3;
-  }
+.box-circle:hover {
+  background: red;
+  border-radius: 75%;
+  height: 40rem;
+  width: 40rem;
 }
