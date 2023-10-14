@@ -1,0 +1,142 @@
+html{
+    font-family: Arial, Helvetica, Sans-Serif ;
+}
+
+body {
+    background-color: black;
+    
+    background-repeat: no-repeat;
+    min-height: 50vh;
+}
+
+.main-container {
+    width: 50%;
+    margin: 10%;
+}
+
+.labels-right {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: right;
+    justify-content: center;
+}
+
+label {
+    font-weight: normal !important;
+}
+
+h1 {
+    text-align: center;
+    font: bold 3.0rem "Open Sans", sans-serif; 
+}
+
+h2 {
+    text-align: center;
+    font: 1.2rem "Open Sans", sans-serif;
+}
+
+.card-body{
+    background: hsl(0, 28%, 87%);
+}
+
+input[type=text]:disabled {
+    background: hsl(0, 12%, 66%);
+}
+
+input:focus{
+    outline: none;
+}
+
+input:focus, input.form-control:focus {
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+input[type='range'] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+    border: none;
+    margin-top: 0.8rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0%;
+    padding-left: 0%;
+    border:0 none !important;
+    background-color: transparent !important;
+}
+
+input[type='range'],
+input[type='range']::-webkit-slider-runnable-track,
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 0.5rem;
+    background: black;
+    border-radius: 0.5rem;
+}
+
+input[type='range']::-webkit-slider-thumb {
+    position: relative;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-top: -0.5rem;
+    background: black;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 300px){
+    .main-container {
+        width: fit-content;
+        margin: 10%;
+    }
+
+    .card-elements {
+        display: block;
+    }
+
+    .labels-right {
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 550px) {
+    .main-container {
+        width: fit-content;
+        margin: 10%;
+    }
+
+    .labels-right {
+        font-size: 1.25rem;
+        font-weight: bold;
+        text-align: left;
+        justify-content: center;
+    }
+
+    .card-elements {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 551px) and (max-width: 960px) {
+    .main-container {
+        width: 80%;
+        margin: 5%;
+    }
+}
+
+@media screen and (min-width: 961px) and (max-width: 1064px) {
+    .main-container {
+        width: 75%;
+        margin: 10%;
+    }
+}
