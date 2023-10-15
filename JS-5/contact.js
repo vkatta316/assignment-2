@@ -6,7 +6,6 @@ const notes = document.getElementById('notes')
 const contactUL = document.getElementById('contact')
 
 const contactDetails = JSON.parse(localStorage.getItem('contacts'))
-console.log('FROM LOCAL STORAGE' + contactDetails)
 if(contactDetails){
   console.log('FROM LOCAL STORAGE' + contactDetails)
   contactDetails.forEach(contact => addContact(contact))

@@ -9,18 +9,19 @@
 </head>
 <body>
     <div class="container">
-      <h1>Contact Form</h1>
+      <h1>Contact</h1>
+      
       <form class="contactGroup" id="form"  >
-        <input class="contactInput" id="firstName" type="text" name="firstName" placeholder="First Name"/>
-        <input class="contactInput"  id="lastName" type="text" name="lastName" placeholder="Last Name"/>
+        <h4>Message Me</h4>
+        <input class="contactInput" id="name" type="text" name="name" placeholder="Name" required minlength="6" maxlength="15"/>
         <input class="contactInput" id="email" type="email" name="email" placeholder="Email Address"/>
-        <textarea class="contactInput" id="notes" name="notes" placeholder="Notes" cols="30" rows="6"></textarea>
-        <button class="btn">Submit</button>
+        <input class="contactInput"  id="subject" type="text" name="subject" placeholder="Subject"/>
+        <textarea class="contactInput" id="message" name="notes" placeholder="Message" cols="30" rows="6" ></textarea>
+        <button class="btn">Send Message</button>
         <ul class="contact" id="contact">
           
         </ul>
       </form>
     </div>
-    <script src="contact.js"></script>
 </body>
 </html>

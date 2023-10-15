@@ -9,23 +9,59 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to My Home Page</h1>
+        <h1>Assignment 2</h1>
     </header>
-    
-    <nav>
-      <ul>
-        <li><a href="HTML-1/introduction.html">Introduction Page</a></li>
-        <li><a href="HTML-2/recipe.html">Recipe Page</a></li>
-        <li><a href="HTML-3/loginScreen.html">Login Screen</a></li>
+    <div class="container">
+      <h1>HTML</h1>
+      
+      <ul class="ingredient">
+        <li class="desc"><a href="HTML-1/introduction.html">Introduction Page</a></li>
+        <p class="lead">My introduction page built with basic HTML tags and used Table with rown and columns</p>
+        <li class="desc"><a href="HTML-2/recipe.html">Recipe blog page</a></li>
+        <p class="lead">Recipe page built using  ul element that represents a list of items and with different heading elements</p>
+        <li class="desc"><a href="HTML-3/loginScreen.html">Login Page</a></li>
+        <p class="lead">Login page with different input elements of types email, password, checkbox and button.</p>
+        <li class="desc"><a href="HTML-4/nav-bar.html">Navigation Bar with Menu Item Dropdown</a></li>  
+        <p class="lead">Home page is built with nav element a section with navigation links, footer element represents a footer, section element represents a generic section of a application.
+        <br>One of the menu item <b>Technologies</b> also has the Dropdown list of items</p>
+        <li class="desc"><a href="HTML-5/contact-form.html">Contact Form</a></li>  
+        <p class="lead">A contact form page built using HTML input tags, placeholders and built-in form validations for Name and Email and Message
+          <br>Validations: Required, Minlength and Maxlength for Name
+          <br> type for an email address
+          <br>Setting the rows and cols attributes for message to define the number of horizontal and vertical subspaces in a frameset.
+        </p>
+    </ul>
+    <h1>CSS</h1>
+      <ul class="ingredient">
+        <li class="desc"><a href="CSS-1/waviy-animation.html">Waviy Animation</a></li>
+        <p class="lead">A two-dimensional transformation is applied to an element through the 'transform' property and defines when the animation will start (for every 1s infinite times)
+        <br>Also binds the animation 'waviy' to the div element</p>
+        <li class="desc"><a href="CSS-2/transition.html">Transitions</a></li>
+        <p class="lead">CSS Transitions is applied in this example. In this case, I added a transition effect for both the width and height property, with a duration of 1 seconds.</p>
+        <li class="desc"><a href="CSS-3/shadowing-rotate.html">Shadowing and Rotation</a></li>
+        <p class="lead">In this example, I rotate the box in the clockwise direction using the transform property and give it a box shadow.</p>
+        <li class="desc"><a href="CSS-4/movies.html">Movies List Album using Grid and Media queries</a></li>  
+        <p class="lead">In this example, I created a layout using Grid. I have divided my layout into 3 columns and added a nth-of-type() Selector for my 3rd image to occupy grid column and row 
+        <br>Also, added media queries to make my layout compatible to any screen resolution and different kinds of devices</p>
+        <li class="desc"><a href="CSS-5/slider.html">Feedback Checboxes with animated slider</a></li>  
+        <p class="lead">In this example, I used flex box to layout my checkboxes in column direction. Also implemented slideOn and slideOff animation to select the checkboxes.
+          <br> Applied % at different states for my animation to go through from the first to the last frame. </p>
       </ul>
-    </nav>
-
-    <section>
-       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae et iusto inventore magni, assumenda eaque itaque minima. Minus, unde sit distinctio dolorum animi, pariatur facere atque tempore, eligendi odit voluptate?
-    </section>
-
-    <footer>
-        <p>&copy; 2023 Vinay Katta - All rights reserved.</p>
-    </footer>
-</body>
-</html>
+    <h1>Javascript</h1>
+      <ul class="ingredient">
+        <li class="desc"><a href="JS-1/counter.html">Social Media Followers</a></li>
+        <p class="lead"> A simple html and used font-awesome external stylesheet for the social media icons. Visual increment of followers count per 1000 using javascript. Refresh the page to see the count of followers updating.</p>
+        <li class="desc"><a href="JS-2/loginPage.html">Sign-in input validations</a></li>
+        <p class="lead">Client-side validation on email and password inputs on sign-in form through JavaScript. Below three validations are achieved.
+          <br>Email should not be empty<br>Password should not be empty<br>Email and Password should not be empty
+          <br>Password should be minimum of 5 and maximum of 20</p>
+        <li class="desc"><a href="JS-3/slider.html">Provide Feedback</a></li>
+        <p class="lead">In this example, user has two options to select either Good or Bad. Added event listener on Change to update toggle one at a time. </p>
+        <li class="desc"><a href="JS-4/calculator.html">Calculator</a></li>  
+        <p class="lead">In this example, a bill of 100 with a tip of 10% will have a tip amount of 10 and a total with tip of 110. App listen to <b>onchange</b> event on the form element. Also, used toFixed() method on Tip Amount and Total Bill with Tip to display 2 decimal
+          places.<br> Additionally, input validations for non-number in the Bill Total field are handled. (eg: Invalid Bill Total, please enter a valid number          )
+        <li class="desc"><a href="JS-5/contact-form.html">Contact Details</a></li>  
+        <p class="lead">In this example, a contact form page is built using simple HTML and CSS and Javascript. We display the contact data(First Name, Last Name and Email) on the form after the user submits the form with all the input data.
+          <br>Additionally, implemented Storing and retrieving JavaScript objects in <b>localStorage</b>. The user can read data that has already been added.
+          <br>When a user right-clicks a record, they should have the option to delete a contact.
+         </p>

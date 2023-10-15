@@ -12,7 +12,7 @@ body{
 	overflow: hidden;
 	margin: 0;
 }
-span, h2, .counter, i{
+span, h2, .total, i{
 	color: aquamarine;
 }
 .container{
@@ -23,7 +23,7 @@ span, h2, .counter, i{
 	text-align: center;
 }
 
-.counter{
+.total{
 	font-size: 2rem;
 	margin-top: 10px;
 }
