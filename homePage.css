@@ -22,8 +22,22 @@ body{
 
 h1{
   text-align: center;
+  color: #000;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  line-height: 1.1;
+  font-size: 5.61rem;
 }
 
 li{
   list-style: none;
+}
+
+a{
+  color: inherit;
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 4.209rem;
 }
